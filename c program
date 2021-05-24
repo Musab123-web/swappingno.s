@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	int a=9,b=3;
+	printf("Before swap a=%d,b=%d",a,b);
+	a=a*b;//a=27(9*3)
+	b=a/b;//b=3(9/3)
+	a=a*b;//a=81(27*3)
+	printf("After swap a=%d,b=%d\n" ,a,b);
+	return 0;
+}
